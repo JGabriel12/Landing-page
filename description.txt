@@ -1,0 +1,11 @@
+This file is exclusive for all documentation in this project.
+
+Fonts: 
+
+h1       = Montserrat - black   - 900
+
+Articles = Open Sans  - Regular - 400 
+           Open Sans  - Regular - 400 - italic
+           Open Sans  - bold    - 700
+
+Padding default = 3rem; 
