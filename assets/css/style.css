@@ -91,6 +91,29 @@ p {
   margin-bottom: 3rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  border: 0.1rem solid var(--white-color);
+}
+
+table caption {
+  font-size: 1.6rem;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+tfoot td,
+table th {
+  white-space: nowrap;
+  background-color: rgb(5, 66, 106);
+}
+
 .main-bg {
   background-image: url('../img/main-bg.svg');
   background-size: cover;
@@ -249,4 +272,14 @@ p {
 
 .gallery-img img:hover {
   transform: translate(3%, 3%) scale(1.1) rotate(3deg);
+}
+
+.gallery-align {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
 }
